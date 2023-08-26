@@ -22,13 +22,13 @@
                     <a href="">Inicio</a>
                 </li>
                 <li class="lista-navbar">
-                    <a href="">Acerca de mi</a>
+                    <a href="#acercademi">Acerca de mi</a>
                 </li>
                 <li class="lista-navbar">
-                    <a href="">Mis diplomas</a>
+                    <a href="#Certificados">Mis diplomas</a>
                 </li>
                 <li class="lista-navbar">
-                    <a href="">Mis proyectos</a>
+                    <a href="#Proyectos">Mis proyectos</a>
                 </li>
 
             </ol>
@@ -71,7 +71,7 @@
         </section>
     </header>
     <div class="container">
-        <div class="container text-center">
+        <div class="container text-center" id="acercademi">
             <div class="row align-items-start" style="margin-top: 2%;">
                 <div class="col">
                     <img src="./assets/deberita.jpeg" width="400" height="500" alt="">
@@ -89,7 +89,7 @@
                             <a href="" class="btn btn-outline-light">
                                 Descargar CV
                             </a>
-                            <a href="" class="btn btn-outline-light ">
+                            <a href="#Contactame" class="btn btn-outline-light ">
                                 Contactame
                             </a>
                         </article>
@@ -152,7 +152,7 @@
             </div>
         </div>
 
-        <div class="diplomated">
+        <div class="diplomated" id="Certificados">
             <center>
                 <h1>DIPLOMAS Y CERTIFICACIONES</h1>
             </center>
@@ -169,7 +169,7 @@
 
         </div>
         <br>
-        <div class="projects">
+        <div class="projects" id="Proyectos">
             <center>
                 <h1>
                     PROYECTOS
@@ -222,16 +222,17 @@
                     <div class="card mb-3" style="max-width: 540px;">
                         <div class="row g-0">
                             <div class="col-md-4">
-                                <img src="./assets/torogoz.png" width="190px" height="180px" alt="...">
+                                <img src="./assets/portafolio.png" width="190px" height="180px" alt="...">
                             </div>
                             <div class="col-md-8">
                                 <div class="card-body">
-                                    <h5 class="card-title">Proyecto torogoz</h5>
-                                    <p class="card-text">Proyecto hecho con html,css,javascript y php.
-                                        destinado a la proyeccion social de venta de paqueteria de viajes
+                                    <h5 class="card-title">Portafolio Personal</h5>
+                                    <p class="card-text">
+                                        Proyecto hecho con HTML y CSS. Aplicando la metodologia de enseñanza
+                                        en la certificacion de pearson
                                     </p>
                                     <p class="card-text"><small class="text-body-secondary">
-                                            Girhub : <a href="https://github.com/CallmeCarlos503/proyecto_nehemias"
+                                            Girhub : <a href="https://github.com/CallmeCarlos503/Portafolio"
                                                 style="color: black;">ver aqui</a>
                                         </small></p>
                                 </div>
@@ -241,7 +242,63 @@
                 </div>
             </center>
         </div>
+
+        <div class="projects" id="Contactame">
+            <center>
+                <h1>CONTACTANOS</h1>
+            </center>
+
+            <form>
+                <div class="mb-3">
+                    <label for="nombre" class="form-label">Nombre:</label>
+                    <input type="text" class="form-control transparent-input" id="nombre"
+                        placeholder="Ingresa tu nombre">
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email:</label>
+                    <input type="email" class="form-control transparent-input" id="email"
+                        placeholder="Ingresa tu email">
+                </div>
+                <div class="mb-3">
+                    <label for="mensaje" class="form-label">Mensaje:</label>
+                    <textarea class="form-control transparent-input" id="mensaje" rows="3"
+                        placeholder="Ingresa tu mensaje"></textarea>
+                </div>
+                <center>
+                    <button type="submit" class="btn btn-outline-light">Enviar</button>
+                </center>
+            </form>
+        </div>
     </div>
+    <br>
+
+    <footer>
+        <div class="contenido">
+
+
+            <ol class="iconosfooter">
+                <li>
+                    <a href="">
+                        <i class="fa-brands fa-facebook" style="color: #000000;"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <i class="fa-brands fa-instagram" style="color: #000000;"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <i class="fa-brands fa-tiktok" style="color: #000000;"></i>
+                    </a>
+                </li>
+                <h3 class="correo">
+                    <a href="mailto:Carlosgeek503@gmail.com" style="color: black;">Carlosgeek503@gmail.com</a>
+                </h3>
+            </ol>
+
+        </div>
+    </footer>
     <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="https://kit.fontawesome.com/357aae614a.js" crossorigin="anonymous"></script>
 </body>

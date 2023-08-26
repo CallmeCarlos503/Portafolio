@@ -144,6 +144,41 @@ titulo {
     margin-top: 10%;
     font-family: 'Roboto Condensed', sans-serif;
 }
+
+.transparent-input {
+    background-color: transparent;
+    border: 1px;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+  }
+
+  .transparent-input::placeholder {
+    color: #fff;
+  }
+
+  .transparent-button {
+    background-color: transparent !important;
+    
+    color: #fff;
+  }
+footer{
+    margin-top: 2%;
+    background-color: white;
+    color: black;
+    padding-bottom: 1%;
+}
+.iconosfooter{
+ font-size: larger;
+ margin-left: 40%;
+ margin-top: 6%;
+}
+
+.correo{
+    color: black;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: medium;
+
+}
 /*exclusiones para dispositivos moviles*/
 
 @media (max-width: 800px) {}
